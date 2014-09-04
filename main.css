@@ -125,7 +125,10 @@ h2 {font-family: 'Lobster', cursive;
 #thres{ background-image: url('http://www.mrwallpaper.com/wallpapers/Sunset-over-Sea.jpg');
         background-size:cover;
 }
-#container3 {
+#meGusta{
+  
+}
+/*#container3 {
 clear: left;
 float: left;
 width: 100%;
@@ -167,6 +170,6 @@ width: 29.33%;
 position: relative;
 left: 76.67%;
 overflow: hidden;
-}
+}*/
 } 
 
