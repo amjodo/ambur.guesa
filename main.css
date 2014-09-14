@@ -5,6 +5,7 @@
 /*1st page*/
 #test{ background-image: url('https://s3.amazonaws.com/ooomf-com-files/kMh0QXZMQOmsIiQRQIlW_14701556285_aacce9be47_o.jpg');
        background-size:cover;
+       background-repeat: repeat-x;
 }
 h1 {font-family: 'Lobster', cursive;
 	color: white;
@@ -123,6 +124,21 @@ width: 430px;
 margin: 3px;
 padding: 2px;
 }  
+#p1{
+ height:81px;
+ width:430px;
+ display: inline-block;
+  }
+#p2{
+height:81px;
+ width:430px;
+ display: inline-block;
+  }
+#p3{
+height:81px;
+ width:430px;
+ display: inline-block;
+}
 /*
 
 
@@ -148,5 +164,45 @@ padding: 10px;
 border-radius: 40px;
 font-size: 24px;
 }
+/*@media all and (max-width: 1200px) { /* screen size until 1200px 
+    body {
+        font-size: 1.5em; /* 1.5x default size 
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px 
+    body {
+        font-size: 1.2em; /* 1.2x default size 
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px 
+    body {
+        font-size: 0.8em; /* 0.8x default size 
+        }*/
+    }
+/* Smartphones (portrait and landscape) ----------- */  
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px) {  
+/* Styles */  
+}  
+  
+/* Smartphones (landscape) ----------- */  
+@media only screen   
+and (min-width : 321px) {  
+/* Styles */  
+}  
+  
+/* Smartphones (portrait) ----------- */  
+@media only screen   
+and (max-width : 320px) {  
+/* Styles */  
+}  
+  
+/* iPads (portrait and landscape) ----------- */  
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px) {  
+/* Styles */  
+}  
 } 
 
