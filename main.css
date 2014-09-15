@@ -3,6 +3,9 @@
 
 */
 /*1st page*/
+p{ margin: 6px;
+
+}
 #test{ background-image: url('https://s3.amazonaws.com/ooomf-com-files/kMh0QXZMQOmsIiQRQIlW_14701556285_aacce9be47_o.jpg');
        background-size:cover;
 }
