@@ -7,16 +7,25 @@
        background-size:cover;
        background-repeat: repeat-x;
 }
-h1 {font-family: 'Lobster', cursive;
+/*h1 {font-family: 'Lobster', cursive;
 	color: white;
 	font-size: 100px;
 	text-align: center;
 	text-shadow: 1px 1px 1px #000, 
-               3px 3px 5px gold;
-}
+               3px 3px 5px gold;}*/
+
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
+
+#seconds { 
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 100px;margin: 20px; 
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px gold;}   
 }
 .box-shadow-menu:before {
   content: "";
@@ -164,45 +173,21 @@ padding: 10px;
 border-radius: 40px;
 font-size: 24px;
 }
-/*@media all and (max-width: 1200px) { /* screen size until 1200px 
+@media all and (max-width: 1200px) { /* screen size until 1200px*/
     body {
-        font-size: 1.5em; /* 1.5x default size 
+        font-size: 1.5em; /* 1.5x default size */
     }
 }
-@media all and (max-width: 1000px) { /* screen size until 1000px 
+@media all and (max-width: 1000px) { /* screen size until 1000px */
     body {
-        font-size: 1.2em; /* 1.2x default size 
+        font-size: 1.2em; /* 1.2x default size */
         }
     }
-@media all and (max-width: 500px) { /* screen size until 500px 
+@media all and (max-width: 500px) { /* screen size until 500px */
     body {
-        font-size: 0.8em; /* 0.8x default size 
-        }*/
+        font-size: 0.8em; /* 0.8x default size */
+        }
     }
-/* Smartphones (portrait and landscape) ----------- */  
-@media only screen   
-and (min-device-width : 320px)   
-and (max-device-width : 480px) {  
-/* Styles */  
-}  
   
-/* Smartphones (landscape) ----------- */  
-@media only screen   
-and (min-width : 321px) {  
-/* Styles */  
-}  
-  
-/* Smartphones (portrait) ----------- */  
-@media only screen   
-and (max-width : 320px) {  
-/* Styles */  
-}  
-  
-/* iPads (portrait and landscape) ----------- */  
-@media only screen   
-and (min-device-width : 768px)   
-and (max-device-width : 1024px) {  
-/* Styles */  
-}  
 } 
 
