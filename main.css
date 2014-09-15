@@ -5,27 +5,24 @@
 /*1st page*/
 #test{ background-image: url('https://s3.amazonaws.com/ooomf-com-files/kMh0QXZMQOmsIiQRQIlW_14701556285_aacce9be47_o.jpg');
        background-size:cover;
-       background-repeat: repeat-x;
 }
-/*h1 {font-family: 'Lobster', cursive;
+/* {font-family: 'Lobster', cursive;
 	color: white;
 	font-size: 100px;
 	text-align: center;
 	text-shadow: 1px 1px 1px #000, 
-               3px 3px 5px gold;}*/
-
-.box-shadow-menu {
-  position: relative;
-  padding-left: 1.25em;
-
-#seconds { 
+               3px 3px 5px gold;
+}*/
+#seconds { margin: 20px; 
   font-family: 'Lobster', cursive;
   color: white;
-  font-size: 100px;margin: 20px; 
   font-size: 100px;
   text-align: center;
   text-shadow: 1px 1px 1px #000, 
-               3px 3px 5px gold;}   
+               3px 3px 5px gold;} 
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
 }
 .box-shadow-menu:before {
   content: "";
@@ -173,21 +170,5 @@ padding: 10px;
 border-radius: 40px;
 font-size: 24px;
 }
-@media all and (max-width: 1200px) { /* screen size until 1200px*/
-    body {
-        font-size: 1.5em; /* 1.5x default size */
-    }
-}
-@media all and (max-width: 1000px) { /* screen size until 1000px */
-    body {
-        font-size: 1.2em; /* 1.2x default size */
-        }
-    }
-@media all and (max-width: 500px) { /* screen size until 500px */
-    body {
-        font-size: 0.8em; /* 0.8x default size */
-        }
-    }
-  
 } 
 

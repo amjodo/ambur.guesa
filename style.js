@@ -1,5 +1,5 @@
     $.fx.step.textShadowBlur = function(fx) {
-        $(fx.elem).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px black'});
+        $(fx.elem).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px gold'});
     };
     
 
