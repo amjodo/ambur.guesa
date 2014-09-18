@@ -2,6 +2,10 @@
 
 
 */
+#container{
+  width: 960px;
+  margin: 0px auto;
+}
 /*1st page*/
 p{ margin: 6px;
 
@@ -133,6 +137,9 @@ width: 430px;
 margin: 3px;
 padding: 2px;
 }  
+#para3{
+  display: inline-block;
+}
 #p1{ margin: 1px;
  height:81px;
  width:430px;
